@@ -63,7 +63,8 @@
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
           "options": {
-            "browserTarget": "angular-fundametals:build"
+            "browserTarget": "angular-fundametals:build",
+            "port":5000
           },
           "configurations": {
             "production": {
